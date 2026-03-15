@@ -1,0 +1,131 @@
+{
+  "nodes": {
+    "Main Gate": {
+      "name": "Main Gate",
+      "coords": [
+        10,
+        50
+      ],
+      "description": "Primary campus entrance"
+    },
+    "Admin Block": {
+      "name": "Admin Block",
+      "coords": [
+        25,
+        65
+      ],
+      "description": "University administration offices"
+    },
+    "Library": {
+      "name": "Library",
+      "coords": [
+        40,
+        70
+      ],
+      "description": "Balme Library — central study hub"
+    },
+    "Cafeteria": {
+      "name": "Cafeteria",
+      "coords": [
+        40,
+        50
+      ],
+      "description": "Student dining hall"
+    },
+    "SRC": {
+      "name": "SRC",
+      "coords": [
+        55,
+        60
+      ],
+      "description": "Student Representative Council"
+    },
+    "Lecture Hall": {
+      "name": "Lecture Hall",
+      "coords": [
+        55,
+        80
+      ],
+      "description": "Main lecture hall complex"
+    },
+    "Engineering Block": {
+      "name": "Engineering Block",
+      "coords": [
+        70,
+        70
+      ],
+      "description": "College of Engineering"
+    },
+    "Sports Complex": {
+      "name": "Sports Complex",
+      "coords": [
+        70,
+        35
+      ],
+      "description": "Stadium, courts, and gym"
+    }
+  },
+  "edges": {
+    "Main Gate": {},
+    "Admin Block": {
+      "Main Gate": {
+        "distance": 250,
+        "time": 3.1
+      },
+      "Library": {
+        "distance": 220,
+        "time": 2.8
+      },
+      "Cafeteria": {
+        "distance": 200,
+        "time": 2.5
+      }
+    },
+    "Library": {
+      "SRC": {
+        "distance": 160,
+        "time": 2.0
+      }
+    },
+    "Cafeteria": {
+      "Main Gate": {
+        "distance": 350,
+        "time": 4.4
+      },
+      "SRC": {
+        "distance": 220,
+        "time": 2.8
+      },
+      "Sports Complex": {
+        "distance": 450,
+        "time": 5.6
+      }
+    },
+    "SRC": {},
+    "Lecture Hall": {
+      "Library": {
+        "distance": 180,
+        "time": 2.3
+      },
+      "SRC": {
+        "distance": 150,
+        "time": 1.9
+      }
+    },
+    "Engineering Block": {
+      "SRC": {
+        "distance": 220,
+        "time": 2.8
+      },
+      "Lecture Hall": {
+        "distance": 180,
+        "time": 2.3
+      },
+      "Sports Complex": {
+        "distance": 300,
+        "time": 3.8
+      }
+    },
+    "Sports Complex": {}
+  }
+}
