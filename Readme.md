@@ -187,7 +187,7 @@ pytest tests/test_all.py -v
 ## 👤 Author
 
 **Group13** — Computer Engineering, KNUST  
-GitHub: [@asieducodes](https://github.com/asieducodes)
+GitHub: [@joshua-darrah](https://github.com/joshua-darrah)
 
 ---
 
