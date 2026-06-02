@@ -71,7 +71,7 @@ campus_navigation_system/
 
 ```bash
 # Clone the repository
-git clone [https://github.com/joshua-darrah/campus-navigation-system]
+git clone https://github.com/joshua-darrah/campus-navigation-system
 cd campus-navigation-system
 
 # Install dependencies
